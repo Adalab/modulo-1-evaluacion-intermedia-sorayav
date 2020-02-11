@@ -79,9 +79,15 @@ a:visited {
         margin: 20px 30px;
     }
 
-    .main-menu ul {
+    .main-menu {
+        margin-bottom: 0;
         margin-right: 30px;
         word-spacing: 20px;
+    }
+
+    .main-menu ul {
+        
+        
     }
 
     .main-menu ul li {
