@@ -1,5 +1,5 @@
 * {
-    margin: auto;
+    margin: 0;
 }
 body {
     font-family: 'Rubik', sans-serif;
@@ -8,6 +8,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #4a4a4a;
 }
 
 a:visited {
@@ -44,7 +45,6 @@ a:visited {
 .main-menu ul li {
     display: inline;
     padding: 0 20px 0 0;
-    
 }
 
 .main-menu ul {
@@ -72,12 +72,20 @@ a:visited {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        padding: 20px 30px;
-       
     }
 
-    .main-menu {
-        
+    .logo img {
+        width: 100%;
+        margin: 20px 30px;
+    }
+
+    .main-menu ul {
+        margin-right: 30px;
+        word-spacing: 20px;
+    }
+
+    .main-menu ul li {
+        padding: 0 0 0 0;
         
     }
 
