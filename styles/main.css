@@ -42,14 +42,15 @@ a:visited {
     text-align: center;
 }
 
-.main-menu ul li {
-    display: inline;
-    padding: 0 20px 0 0;
+.main-menu ul {
+    padding-inline-start: 0px;  
 }
 
-.main-menu ul {
-    padding-inline-start: 20px;  
+.main-menu ul li {
+    display: inline;
+    padding: 10px 10px 13px 10px;
 }
+
 
 .main-content {
     background-color: #3CDBC0;
@@ -65,29 +66,27 @@ a:visited {
     color: #fff;
     text-align: center;
     font-size: 30px;
+    text-transform: capitalize;
 }
 
 @media (min-width:768px) {
     .header {
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
     }
 
     .logo img {
-        width: 100%;
         margin: 20px 30px;
     }
 
     .main-menu {
         margin-bottom: 0;
         margin-right: 30px;
-        word-spacing: 20px;
+        /* word-spacing: 20px; */
     }
 
     .main-menu ul li {
-        padding: 0 0 0 0;
-        
+        padding: 20px;  
     }
 
     .title {
